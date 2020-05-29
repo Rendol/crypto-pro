@@ -1620,7 +1620,7 @@ exports._getCadesCert = _afterPluginsLoaded_1._afterPluginsLoaded(function (thum
         }
         try {
             void (_generateCadesFn_1.__cadesAsyncToken__ +
-                cadesStore.Open(cadesplugin.CAPICOM_CURRENT_USER_STORE, cadesplugin.CAPICOM_MY_STORE, cadesplugin.CAPICOM_STORE_OPEN_MAXIMUM_ALLOWED));
+                cadesStore.Open(cadesplugin.CADESCOM_CONTAINER_STORE));
         }
         catch (error) {
             console.error(error);
